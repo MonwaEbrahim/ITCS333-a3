@@ -1,0 +1,57 @@
+
+/* Main container */
+.container {
+  margin-top: 2rem;
+}
+
+/* Table styling */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 1rem;
+}
+
+/* Table header styling */
+table thead th {
+  background-color: #1e293b; /* Dark blue background for headers */
+  color: #f1f5f9;            /* Light text color for contrast */
+  padding: 0.8rem;
+  text-align: left;
+}
+
+/* Table body row styling */
+table tbody tr:nth-child(odd) {
+  background-color: #f8fafc; /* Light gray for alternating rows */
+}
+
+table tbody tr:nth-child(even) {
+  background-color: #e2e8f0; /* Slightly darker gray for contrast */
+}
+
+/* Table cell padding */
+table th,
+table td {
+  padding: 0.8rem;
+}
+
+/* Hover effect for rows */
+table tbody tr:hover {
+  background-color: #cbd5e1; /* Highlight row on hover */
+}
+
+/* Page heading styling */
+h1 {
+  text-align: center;
+  color: #334155; /* Dark gray for the title */
+}
+
+/* Responsive design for smaller screens */
+@media (max-width: 768px) {
+  table {
+    font-size: 0.9rem;
+  }
+
+  h1 {
+    font-size: 1.5rem;
+  }
+}
